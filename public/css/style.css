@@ -1,0 +1,63 @@
+h1 {
+    color:blue
+}
+
+
+img{
+    width: 100px;
+    
+}
+
+
+body{
+    color:#333333;
+    font-family:cursive;
+    max-width: 500px;
+    margin:5px auto;
+    padding:0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color:#888888;
+    border-top:2px solid #eeeeee;
+    margin-top:0px;
+    padding: 0px, 16px;
+}
+
+header{
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+header a{
+    color:#888888;
+    margin-right:16px;
+    text-decoration: none;
+}
+
+h1{
+    color:#000000;
+    font-size:64px;
+    margin-bottom: 16px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding :8px;
+}
+
+button{
+    cursor: pointer;
+    border: 8px outset #888888;
+    background: #888888;
+    color: white;
+}
+

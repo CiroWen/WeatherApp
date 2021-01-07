@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ciro's express exercise</title>
+        {{>icon}}
+        <link rel='stylesheet' href='css/style.css'/>
+        <!--rel(relation) href(hypertext reference)-->
+        {{!-- <script src = "js/front.js"></script> --}}
+        
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <form>
+                <input placeholder="Please enter location here">
+                <button value="submit">Search</button>
+            </form>
+            <p id="outputA"></p>
+            <p id="outputB"></p>
+        </div>
+        
+        {{>footer}}
+        <script src = "js/app.js"></script>
+    </body>
+</html>
